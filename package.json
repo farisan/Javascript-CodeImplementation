@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tugas1": "node palindrome.js",
+    "tugas2": "node ubah_string.js",
+    "tugas3": "node pembayaran.js",
+    "tugas4": "node potongbilangan.js"
   },
   "author": "",
   "license": "ISC"

@@ -18,14 +18,12 @@ const changeText = (kota) => {
 
   let kata = "";
   for (let i = 0; i <= kota.length - 1; i++) {
-    if (kota[i] === "a") {
-      kata += "o";
-    } else {
+    if (kota[i] == "a") kata += "o"; else
       kata += kota[i] + "";
-    }
+
   }
   return kata;
 };
 
 console.log(changeText("jakarta"));
-console.log(changeText("bandung"));
+

@@ -22,8 +22,8 @@ const palindrome = (kata) => {
     rev += "" + kata[i];
   }
 
-  if (rev !== kata) return `${kata} : Bukan Palindrome`;
-  return `${kata} : adalah kata palindrome`;
+  if (rev == kata) return `${kata} : adalah kata palindrome`;
+  return `${kata} : Bukan Palindrome`;
 };
 
 console.log(palindrome("world"));

@@ -1,5 +1,23 @@
 // VOUCHER MENGGUNAKAN CALLBACK
 
+/* 
+    Homework Code Implementation Javascript
+
+    Deni membeli makanan menggunakan aplikasi FazzFood. Dimana terdapat 2 buah kode promo :
+    Promo ‘FAZZFOOD50’ dengan ketentuan pemesanan minimal 50rb akan 
+    mendapatkan diskon 50%, dengan maksimal potongan sebesar 50rb.
+    Promo ‘DITRAKTIR60’ dengan ketentuan pemesanan minimal 25rb akan 
+    mendapatkan diskon 60% dengan maksimal potongan sebesar 30rb.
+    Untuk pengiriman sejauh 2 km pertama akan dikenakan tarif 5rb, 
+    dan setiap 1 km selanjutnya dikenakan penambahan 3rb. Untuk beberapa 
+    restoran dikenakan pajak yakni 5% dari harga makanan yang dipesan (true), jika tidak dikenakan pajak (false).
+
+    Buatlah flowchart untuk membuat fungsi dari cerita diatas
+    Buatlah sebuah function yang menerima 4 parameter FazzFood(harga, voucher, jarak, pajak) 
+
+*/
+
+// ============================================= //
 
 const FazzFood = (harga, voucher, jarak, pajak) => {
   // Validasi
