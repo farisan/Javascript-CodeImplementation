@@ -18,8 +18,11 @@ const changeText = (kota) => {
 
   let kata = "";
   for (let i = 0; i <= kota.length - 1; i++) {
-    if (kota[i] == "a") kata += "o"; else
-      kata += kota[i] + "";
+    if (kota[i] == "a") {
+      kata += "o"
+      continue
+    }
+    kata += kota[i] + "";
 
   }
   return kata;
